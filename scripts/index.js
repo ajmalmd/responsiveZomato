@@ -47,7 +47,11 @@ document.addEventListener("click", (e) => {
     // remove seeless button
     const seeless = document.querySelector(".less-div");
     seeless.parentElement.remove();
+
+    //scroll to place list
+    placeRow.scrollIntoView({ behavior: "smooth" });
   }
+  //end of see less----------------------------------
 
   //see more
   if (item.classList.contains("more-div")) {
@@ -81,4 +85,5 @@ document.addEventListener("click", (e) => {
     const seemore = document.querySelector(".more-div");
     seemore.parentElement.remove();
   }
+  // end of see more---------------------------------
 });
