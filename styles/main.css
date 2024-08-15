@@ -173,11 +173,14 @@
   padding: 10px 20px;
   border-radius: 0.8rem;
 }
+.box:hover {
+  box-shadow: 0 1.4px 2.8px 2px rgba(28, 28, 28, 0.08);
+}
 .box div,
 .box i {
   pointer-events: none;
 }
-#place-row{
+#place-row {
   margin-top: 3rem;
 }
 .popular-localities .title,
